@@ -10,4 +10,4 @@
   *  [x] Confirmar los cambios con coamando **git commit -am  "Primer commit remoto"**
   *  [x] Agregar mi reporsorio remot a mi reporsorio local usando **git remote add origin url_remote**
   *  [x] Subir mis cambios al remoto usando **git push origin main**
-  *  [] Comprobar que mi remoto tenga los ultimos cambios agregados. 
+  *  [x] Comprobar que mi remoto tenga los ultimos cambios agregados. 
