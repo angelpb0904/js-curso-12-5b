@@ -1,8 +1,11 @@
 
 
 # Enlazando mi proyecto con GitHub: 
-  *.md MarkDoum 
+  
+Angel Remote Repo link : https://github.com/angelpb0904/js-curso-12-5b.git
 
+
+## TODO-LIST: 
   *  [x] Crear cuenta de GitHub
   *  [x] Crear un reporsorio en GitHub - Nombre del repo = js.curso-12-5to b
   *  [x] Cambiar el nombre de mi rama local master -> main. 
