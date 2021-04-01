@@ -3,19 +3,19 @@
 const ordenaBurbuja = (lista) => { 
 
 
-    let longitudLista, indexOrder, indexChage, auxChange;
+    let longitudLista, indexOrder, indexChange, auxChange;
     longitudLista = lista.length;
 
     console.info(longitudLista); // Mostramos por consola la cantidad de elementos en la lista.
 
-    for (indexOrder = 1; indexChage < longitudLista; indexOrder++) {
+    for (indexOrder = 1; indexChange < longitudLista; indexOrder++) {
         //For anidado.
-        for (indexChage = 0; indexChage < (longitudLista - indexOrder); indexChage++) {
+        for (indexChange = 0; indexChange < (longitudLista - indexOrder); indexChange++) {
             //Intercambiamos los valores si el anterior esmayor al siguiente.
-            if (lista[indexChage] > lista [indexChage + 1]) {
-                auxChange = lista [indexChage];
-                lista[indexChage] = lista[indexChage + 1];
-                lista[indexChage + 1] = auxChange;
+            if (lista[indexChange] > lista [indexChange + 1]) {
+                auxChange = lista [indexChange];
+                lista[indexChange] = lista[indexChange + 1];
+                lista[indexChange + 1] = auxChange;
             }
         }
     }
