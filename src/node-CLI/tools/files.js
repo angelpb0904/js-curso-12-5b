@@ -1,0 +1,26 @@
+
+
+require('colors'); 
+//Importamos el paquete por default de node para manejar archivos fs
+const fs = require('fs');
+const path = require('path');
+// Guardamos el path a nuestro archivo task.json 
+const filePath = path.join(__dirname,  '..db/task.json'); 
+
+// Funcion para cargar task desde task.json
+const loadTask = () => {
+    let listTask = {};
+    // Nos muestra el Path o ruta de nuestro proceso
+    console.log("Ruta absoluta del Proceso node: ".yellow, process.cwd())
+
+    //Nos muestra el path o ruta de nuestro fake db.json
+    console.log("Ruta absoluta de nuestra bases de datos: ".yellow, filePath)
+
+    try {
+        listTask = requiere(filePath);
+    } catch (error) {
+        console.log("Error cargando lista de bd" .red, error);
+        listTask = {}
+    }
+    return listTask;
+}
