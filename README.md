@@ -17,13 +17,9 @@ Angel Remote Repo link : https://github.com/angelpb0904/js-curso-12-5b.git
 
 
 
+## Temas puntuales:
 
-
-
-
-  ## Temas puntuales:
-
-  ### Lab 8.1 Instalaciones de paquetes.  
+### Lab 8.1 Instalaciones de paquetes.  
  * [X]  Instalar paquetes de codigo con NPM.
    * [X] Istarlar **yargs** con el comando ```npm install yargs``` 
    * [X] Agregar archivo **.gitignore**.
@@ -36,19 +32,17 @@ Angel Remote Repo link : https://github.com/angelpb0904/js-curso-12-5b.git
    * [X] Usar comando **git push** para subir mis cambios al remoto.
 
 
-   ### Lab 8.2 Creacion Organizacion de Proyecto
+### Lab 8.2 Creacion Organizacion de Proyecto
   * [X] Crear el archivo **node-CLI/app.js**
            * [X] Hacemos **git add .**
            * [X] Hacemos **git commit -am "Crea app.js"**
            * [X] Hacemos **git push**
-
   * [X] Crear directorio **node-CLI/tools** con
             * [X] Crear **node-CLI/tools/index.js**
             * [X] Crear **node-CLI/tools/argvs.js**
             * [X] Crear **node-CLI/tools/files.js**
             * [X] Crear **node-CLI/tools/options.js**
             * [X] Crear **node-CLI/tools/task.js**
-
   * [X] Crear directorio **node-CLI/db** con
            * [X] Crear **node-CLI/db/taks.json**
            * [X] Hacemos **git add .**
@@ -56,20 +50,54 @@ Angel Remote Repo link : https://github.com/angelpb0904/js-curso-12-5b.git
            * [X] Hacemos **git push**
    
 
-   ### Lab 8.3 Trabajando con ficheros en Node
+### Lab 8.3 Trabajando con ficheros en Node
   * [X] Empezamos a trabajar con **file.js**
       * [X] Importamos paquetes **path** y **Colors**
-
   * [X] Usamos paquetes importados en nuestro codigo con la funcion **loadTask()**
           * [X] Exportamos nuestra funcion **loadTask()**
           * [X] Pruebas de loadTask
           * [X] Hacemos **git add .**
           * [X] Hacemos **git commit -am "Crea funcion loadTask()"**
           * [X] Hacemos **git push**
-
   * [X] Usamos paquetes importados en nuestro codigo con la funcion **saveTask()**
           * [X] Exportamos nuestra funcion **saveTask()**
           * [X] Pruebas de saveTask
           * [X] Hacemos **git add .**
           * [X] Hacemos **git commit -am "Crea una funcion"**
           * [X] Hacemos **git push**
+
+
+
+### Lab 8.4 Trabajando con opciones de Yargs
+  * [X] Empezamos a trabajar con  **options.js** 
+    * [X] Creamos los objetos para nuestros comandos:
+          * description
+          * title
+          * completed 
+          * erased 
+    * [X] Creamos los opciones para nuestros comandos:
+          * opcionsCreate
+          * opcionsUpdate
+          * opcionsErase
+    * [X] Exportamos nuestras opciones
+    * [X] Hacemos **git add .**
+    * [X] Hacemos **git commit -am "Configura argvs con opciones para los comandos"**
+    * [X] Hacemos **git push**
+    
+
+### Lab 8.5 Trabajamos en funciones para los tasks o tareas.
+* [X] Empezamos a trabajar con **tasks.js**
+  * [X] Creamos funciones para trabajar los tasks: 
+          * createTask 
+          * updateTask 
+          * eraseTask
+  * [X] Exportamos nuestras funciones.
+  * [X] Hacemos **git add .**
+  * [X] Hacemos **git commit -am "Configura arvgs con opciones para los comandos"**
+  * [X] Hacemos **git push**
+
+     
+
+        
+
+
