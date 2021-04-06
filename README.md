@@ -34,37 +34,37 @@ Angel Remote Repo link : https://github.com/angelpb0904/js-curso-12-5b.git
 
 ### Lab 8.2 Creacion Organizacion de Proyecto
   * [X] Crear el archivo **node-CLI/app.js**
-           * [X] Hacemos **git add .**
-           * [X] Hacemos **git commit -am "Crea app.js"**
-           * [X] Hacemos **git push**
+      * [X] Hacemos **git add .**
+      * [X] Hacemos **git commit -am "Crea app.js"**
+      * [X] Hacemos **git push**
   * [X] Crear directorio **node-CLI/tools** con
-            * [X] Crear **node-CLI/tools/index.js**
-            * [X] Crear **node-CLI/tools/argvs.js**
-            * [X] Crear **node-CLI/tools/files.js**
-            * [X] Crear **node-CLI/tools/options.js**
-            * [X] Crear **node-CLI/tools/task.js**
+      * [X] Crear **node-CLI/tools/index.js**
+      * [X] Crear **node-CLI/tools/argvs.js**
+      * [X] Crear **node-CLI/tools/files.js**
+      * [X] Crear **node-CLI/tools/options.js**
+      * [X] Crear **node-CLI/tools/task.js**
   * [X] Crear directorio **node-CLI/db** con
-           * [X] Crear **node-CLI/db/taks.json**
-           * [X] Hacemos **git add .**
-           * [X] Hacemos **git commit -am "Crea tools settings"**
-           * [X] Hacemos **git push**
+      * [X] Crear **node-CLI/db/taks.json**
+      * [X] Hacemos **git add .**
+      * [X] Hacemos **git commit -am "Crea tools settings"**
+      * [X] Hacemos **git push**
    
 
 ### Lab 8.3 Trabajando con ficheros en Node
   * [X] Empezamos a trabajar con **file.js**
       * [X] Importamos paquetes **path** y **Colors**
   * [X] Usamos paquetes importados en nuestro codigo con la funcion **loadTask()**
-          * [X] Exportamos nuestra funcion **loadTask()**
-          * [X] Pruebas de loadTask
-          * [X] Hacemos **git add .**
-          * [X] Hacemos **git commit -am "Crea funcion loadTask()"**
-          * [X] Hacemos **git push**
+      * [X] Exportamos nuestra funcion **loadTask()**
+      * [X] Pruebas de loadTask
+      * [X] Hacemos **git add .**
+      * [X] Hacemos **git commit -am "Crea funcion loadTask()"**
+      * [X] Hacemos **git push**
   * [X] Usamos paquetes importados en nuestro codigo con la funcion **saveTask()**
-          * [X] Exportamos nuestra funcion **saveTask()**
-          * [X] Pruebas de saveTask
-          * [X] Hacemos **git add .**
-          * [X] Hacemos **git commit -am "Crea una funcion"**
-          * [X] Hacemos **git push**
+      * [X] Exportamos nuestra funcion **saveTask()**
+      * [X] Pruebas de saveTask
+      * [X] Hacemos **git add .**
+      * [X] Hacemos **git commit -am "Crea una funcion"**
+      * [X] Hacemos **git push**
 
 
 
