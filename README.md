@@ -98,6 +98,22 @@ Angel Remote Repo link : https://github.com/angelpb0904/js-curso-12-5b.git
 
      
 
-        
+### Lab 8.6 Trabajamos con la configuracion de Yargs.       
+* [X] Empezamos a trabajar con el fichero **argvs.js**
+  * [X] Agregando los comandos que usara Yargs
+  * [X] Exporto el objeto ```argv``` para nuestro proyecto.
+* [X] Empezamos a trabajar con ```index.js```
+  * [X] Importamos y exportamos nuestras herramientas.
+* [X] Hacemos **git add .**
+* [X] Hacemos **git commit -am "Exportar tools components"**
+* [X] Hacemos **git push**
 
 
+### Lab 8.7 Trabajamos con nuestra aplicacion principal.
+* [X] Empezamos a trabajar con el fichero **app.js**
+* [X] Importamos las herramientas ```tasks argv``` y el paquete ```colors```
+  * [X] Usamos estructura ```switch```
+    * [X] Filtramos los comandos ```create update delete```
+* [X] Hacemos **git add .**
+* [X] Hacemos **git commit -am "Finaliza proyecto-pruebas de funcionamiento"**
+* [X] Hacemos **git push**
