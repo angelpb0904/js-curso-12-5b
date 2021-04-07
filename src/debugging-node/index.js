@@ -8,7 +8,7 @@ const ordenaBurbuja = (lista) => {
 
     console.info(longitudLista); // Mostramos por consola la cantidad de elementos en la lista.
 
-    for (indexOrder = 1; indexChange < longitudLista; indexOrder++) {
+    for (indexOrder = 1; indexOrder < longitudLista; indexOrder++) {
         //For anidado.
         for (indexChange = 0; indexChange < (longitudLista - indexOrder); indexChange++) {
             //Intercambiamos los valores si el anterior esmayor al siguiente.
